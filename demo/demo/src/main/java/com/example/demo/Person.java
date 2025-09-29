@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
+//lo ideal es tener "Person" en un package "entity" al mismo nivel que controller, repository y service
 @Entity
 @Getter
 @Setter
@@ -18,4 +19,5 @@ public class Person {
     private String nombre;
     private int edad;
 }
+
 
